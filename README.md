@@ -11,4 +11,4 @@ npm i ssgss-component
 \*Usage
 `import saiyan from 'ssgss-component'`
 
-`<saiyan level=1 />`
+`<saiyan level='1' />`

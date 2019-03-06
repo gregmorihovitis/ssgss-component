@@ -2,8 +2,9 @@
   "name": "ssgss-component",
   "version": "0.1.1",
   "description": "A react component only for SSB level and above.",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
+    "build": "babel --presets @babel/preset-react index.js  --out-file dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/gregmorihovitis/ssgss-component/issues"
   },
-  "homepage": "https://github.com/gregmorihovitis/ssgss-component#readme"
+  "homepage": "https://github.com/gregmorihovitis/ssgss-component#readme",
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preser-react": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  }
 }
