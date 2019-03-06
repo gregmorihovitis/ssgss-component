@@ -1,0 +1,23 @@
+{
+  "name": "ssgss-component",
+  "version": "0.1.0",
+  "description": "A react component only for SSB level and above.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gregmorihovitis/ssgss-component.git"
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "Greg Morihovitis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregmorihovitis/ssgss-component/issues"
+  },
+  "homepage": "https://github.com/gregmorihovitis/ssgss-component#readme"
+}
