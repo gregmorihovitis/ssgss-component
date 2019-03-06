@@ -1,6 +1,6 @@
 import React from "react";
 
-module.export = props => {
+module.exports = props => {
   if (props.level == 1) {
     return React.createElement("img", {
       src: "https://media2.giphy.com/media/KdzF8XLE3FwXe/giphy.gif"
