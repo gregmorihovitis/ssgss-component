@@ -27,7 +27,6 @@
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
-    "@babel/preser-react": "^7.0.0",
     "@babel/preset-react": "^7.0.0"
   }
 }
